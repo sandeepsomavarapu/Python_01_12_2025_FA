@@ -1,0 +1,308 @@
+Day-1:
+======
+
+python-->1989
+
+
+
+
+Language-english->communication
+
+Prgramming Language--python->communication with machine-->software-->programs-->set of instructions
+
+
+
+Guido Van rossam
+
+1991
+
+feb 20th 1991
+
+
+syntax
+
+Welcome.java
+
+public class Welcome{
+
+public static void main(String args[])
+{
+	System.out.println("welcome to java");
+}
+}
+
+compailation  javac filename.java --->.class--> JVM-->
+
+
+python
+
+print("")
+
+python.org
+
+the complete monty python's circus
+
+
+
+guido
+
+Functional Programming from C
+Object Oriented Prgramming from C++
+scrpting langugage shell scirpt
+modular programming from modula-3
+
+
+C and ABC
+
+
+['False', 'None', 'True', 'and', 'as', 'assert', 'async', 'await', 'break', 'class',
+ 'continue', 'def', 'del', 'elif', 'else', 'except', 'finally', 'for', 'from', 'global', 
+ 'if', 'import', 'in', 'is', 'lambda', 'nonlocal', 'not', 'or', 'pass', 'raise', 'return', 
+ 'try', 'while', 'with', 'yield']
+
+
+
+Areas:
+
+1.Desktop apps (tkinter)
+2.databse  apps(pdbc)
+3.web application(django,flask)
+4.gaming apps
+5.ML
+6.DL
+7.IOT
+8.AI
+....
+
+Features:
+========
+1.simple and easy to learn
+2.freeware and open soruce 
+		jython,cpython
+3.platform independent  PVM
+4.portable
+5.dynamic typed PL
+6.interpreted  python interpreter
+7.rich library   numpy,pandas,matplotlib,keras,sickitlearn,tensorflow....
+
+
+
+	int	age=32;//static typed PL
+	salary=21232//int
+
+
+identifiers:
+any name	
+	a-z
+	A-Z
+	0-9
+	_
+
+		SyntaxError
+		NameError
+		AttributeError
+		ValueError
+
+Data Types
+			imuttable
+	1)int
+	2)float
+	3)complex
+	4)bool
+	5)str
+			oct()
+			hex()
+			bin()
+			print()
+			type()
+			int()
+			float()
+			complex()
+			bool()
+			str()
+			input()
+			
+	slice :	
+
+Advanced DataTypes:
+===================
+	name="suresh"
+	
+		List
+		Tuple
+		Set
+		FrozenSet
+		Dict
+
+
+List:
+=====
+	 to store group objects  as single entity where
+	 
+	 1.duplicates are allowed
+	 2.insertion order is preserved 
+	 3.homogeneous, haterogeneous objects are allowed
+	 4.[]
+	 5.growable in nature
+	 6.muttable
+	 
+Tuple:
+====== imuttable version list 
+
+
+	 to store group objects  as single entity where
+	 
+	 1.duplicates are allowed
+	 2.insertion order is preserved 
+	 3.homogeneous, haterogeneous objects are allowed
+	 4.()
+	 5.imuttable
+Set:
+==== 
+	1)Duplicates are not allowed
+	2)insertion order is not presevred
+	3)homogeneous,haterogeneous
+	4){}
+	5)muttable
+
+Frozenset:	(imuttable version of set)
+============	
+	1)Duplicates are not allowed
+	2)insertion order is not presevred
+	3)homogeneous,haterogeneous
+	4)fronzenset()
+	5)imuttable
+	
+Dict:
+=====  key,value-->item
+
+	1)key must be unique
+	2)value can be duplicate
+	3)mutable
+	4){key:value,key:value}
+
+
+welcome.py--->
+
+py welcome.py
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
