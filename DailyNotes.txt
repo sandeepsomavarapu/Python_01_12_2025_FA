@@ -18,6 +18,10 @@ Guido Van rossam
 
 feb 20th 1991
 
+1.x
+2.x
+3.x
+	3.14
 
 syntax
 
@@ -33,6 +37,8 @@ public static void main(String args[])
 
 compailation  javac filename.java --->.class--> JVM-->
 
+
+python Demo.py-->Interpreter-->output
 
 python
 
@@ -54,6 +60,9 @@ modular programming from modula-3
 
 C and ABC
 
+import keyword
+
+keyword.kwlist
 
 ['False', 'None', 'True', 'and', 'as', 'assert', 'async', 'await', 'break', 'class',
  'continue', 'def', 'del', 'elif', 'else', 'except', 'finally', 'for', 'from', 'global', 
@@ -121,6 +130,7 @@ Data Types
 			bool()
 			str()
 			input()
+			id()
 			
 	slice :	
 
@@ -128,11 +138,11 @@ Advanced DataTypes:
 ===================
 	name="suresh"
 	
-		List
-		Tuple
-		Set
-		FrozenSet
-		Dict
+		List		[]-M
+		Tuple		()-IM
+		Set			{}-M
+		FrozenSet	frozenset{()}-IM
+		Dict		{key,value}-M
 
 
 List:
@@ -186,7 +196,68 @@ welcome.py--->
 
 py welcome.py
 
+Conventions:
 
+
+
+
+
+Day-2:
+=======
+LIST,SET,Dict,String
+
+
+functions
+	def 
+	
+	keyword argument
+	
+	default argument
+	
+	variable length arguments * tuple
+	
+	keyword and variable length args ** dict
+	
+	lambda functions
+		
+			lambda  args:expression
+	
+		def my_fun(number):
+			return number*number
+	
+		 lambda number:number*number
+	
+		
+		
+	
+	filter
+	
+	map
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+
+oops
+re
+file interaction
+exception handling
+multi threading
+database
+orm
+unit testing 
+numpy 
+pandas
 
 
 
