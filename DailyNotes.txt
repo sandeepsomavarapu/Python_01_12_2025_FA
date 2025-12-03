@@ -234,21 +234,88 @@ functions
 	
 	map
 	
+	reduce
+	
+Day-3:
+======
+	
+File Interaction:
+================	
+	
+	open()
+	close()
+	write()
+	writelines()
+	read()
+	read(3)
+	readline()
+	readlines()
+	 
+	 modes
+		a,r,w,b,x,t
+		
+	packages
+		__init__.py
+	modules
+
+	import
 	
 	
+	math,sys,os,random
 	
 	
+OOP's	
 	
 	
+	class is a group of data members and member functions
 	
 	
-	
-	
-	
+	class Employee:
+		
+		def login(self,time):
+			...
+			...
+			...
 	
 
-
+	obj=Employee()
+	obj.login(time..)	
+	
+	
+	instance,static,local variables
+	
+	
+	instance:
+		value of the variable varies from obj to obj(eid,aadhar,pan,contact....)
+	
+	where we can declare 
+	
+	inside the constructor using self
+	inside intance method using self
+	outside the class using object reference
+	
+	Access
+	
+	inside the constructor using self
+	inside intance method using self
+	outside the class using object reference
+	
+	
+	static 
+		value of the variable same for object to obj 
 oops
+
+	class Calculator:
+		3 methods
+	
+
+	class MobileCalci(Calculator):
+	
+		4 methods
+	
+	class LaptopCalci(MobileCalci)
+		6 methods
+
 re
 file interaction
 exception handling
@@ -259,7 +326,7 @@ unit testing
 numpy 
 pandas
 
-
+		__
 
 
 
