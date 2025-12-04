@@ -254,15 +254,15 @@ File Interaction:
 	 modes
 		a,r,w,b,x,t
 		
-	packages
-		__init__.py
-	modules
-
-	import
-	
-	
-	math,sys,os,random
-	
+	packages							x
+		__init__.py							__init__.py
+	modules									a.py		add
+											b.py		sub
+	import								y
+											c.py
+										sys.path
+	math,sys,os,random					from x.a import add
+												add()
 	
 OOP's	
 	
@@ -316,13 +316,203 @@ oops
 	class LaptopCalci(MobileCalci)
 		6 methods
 
+
+	@abstractmethod
+	def m2(self):
+	   pass
+
+public:any where with in the class or outside class
+_protected:any where with in the class but outside only in child classes
+__private :any where with in the class but outside we cannot access
+
+
+
+
+with out exception handling
+
+
+	1)system defined error messages
+	2)abnormal termination
+
+
+
+		1
+		2---->--stop
+		3
+		4
+		5
+with exception handling
+
+
+
+	1)user friendly error messages
+	2)normal termination
+	
+	
+	
+	
+	Error
+	
+		syntax error		because of the syntax
+		runtime errors		because of the invalid input
+	
+	
+	try-->error code/risky code						1 open()
+	except-->handling code							2.write()--->stop O
+	finally-->clean up code execute always			3.	
+	raise--->	raise AttributeError/IndexError....InsufficientBalance/EmployeeNotFound									4.close()
+	,else
+	
+									
+	
+	BaseException
+ ├── BaseExceptionGroup
+ ├── GeneratorExit
+ ├── KeyboardInterrupt
+ ├── SystemExit
+ └── Exception
+      ├── ArithmeticError
+      │    ├── FloatingPointError
+      │    ├── OverflowError
+      │    └── ZeroDivisionError
+      ├── AssertionError
+      ├── AttributeError
+      ├── BufferError
+      ├── EOFError
+      ├── ExceptionGroup [BaseExceptionGroup]
+      ├── ImportError
+      │    └── ModuleNotFoundError
+      ├── LookupError
+      │    ├── IndexError
+      │    └── KeyError
+      ├── MemoryError
+      ├── NameError
+      │    └── UnboundLocalError
+      ├── OSError
+      │    ├── BlockingIOError
+      │    ├── ChildProcessError
+      │    ├── ConnectionError
+      │    │    ├── BrokenPipeError
+      │    │    ├── ConnectionAbortedError
+      │    │    ├── ConnectionRefusedError
+      │    │    └── ConnectionResetError
+      │    ├── FileExistsError
+      │    ├── FileNotFoundError
+      │    ├── InterruptedError
+      │    ├── IsADirectoryError
+      │    ├── NotADirectoryError
+      │    ├── PermissionError
+      │    ├── ProcessLookupError
+      │    └── TimeoutError
+      ├── ReferenceError
+      ├── RuntimeError
+      │    ├── NotImplementedError
+      │    ├── PythonFinalizationError
+      │    └── RecursionError
+      ├── StopAsyncIteration
+      ├── StopIteration
+      ├── SyntaxError
+      │    └── IndentationError
+      │         └── TabError
+      ├── SystemError
+      ├── TypeError
+      ├── ValueError
+      │    └── UnicodeError
+      │         ├── UnicodeDecodeError
+      │         ├── UnicodeEncodeError
+      │         └── UnicodeTranslateError
+      └── Warning
+           ├── BytesWarning
+           ├── DeprecationWarning
+           ├── EncodingWarning
+           ├── FutureWarning
+           ├── ImportWarning
+           ├── PendingDeprecationWarning
+           ├── ResourceWarning
+           ├── RuntimeWarning
+           ├── SyntaxWarning
+           ├── UnicodeWarning
+           └── UserWarning
+	
+Multi Threading:
+================	
+	
+		multi tasking
+		
+		Process Based Multitasking 
+		  executing several tasks simultaniously where each task is seperate independent process
+			laptop
+			
+			
+		Thread Based Multitasking:multi threading
+
+		 executing several tasks simultaniously where each task belongs same process
+		 
+		 process-->collection of threads
+
+	
+	1)creating a thread with out using class
+	2)creating thread by extending thread class
+	3)creating thread with out extending thread class
+	
+	
+	Lock
+	RLock
+	semaphore
+	
+	lock=Lock()
+	
+Regular Expressions:
+
+
+
+
+Database:
+
+
+
+
+ORM
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+
+
+		
+
+
+
+
+
+
+
+
 re
-file interaction
-exception handling
+
 multi threading
 database
 orm
 unit testing 
+logging
 numpy 
 pandas
 
